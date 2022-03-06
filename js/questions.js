@@ -1,27 +1,27 @@
 const quiz = [
 	{
-		question: 'Кто из президентов США написал свой собственный рассказ про Шерлока Холмса?',
-		answers: ['Джон Кеннеди', 'Франклин Рузвельт', 'Рональд Рейган', 'Барак Обама'],
-		correct: 1,
-	},
-	{
-		question: 'Туристы, приезжающие на Майорку, обязаны заплатить налог…',
-		answers: ['На плавки', 'На пальмы', 'На солнце'],
+		question: 'Who was NOT a member of The Beatles?',
+		answers: ['John Lennon', 'Paul McCartney', 'Keith Richards', 'Ringo Star'],
 		correct: 2,
 	},
 	{
-		question:
-			'Найдите ошибку в отрывке из басни Крылова: «Попрыгунья Стрекоза лето красное пропела; оглянуться не успела, как зима катит в глаза».',
-		answers: [
-			'Стрекозы не умеют прыгать',
-			'Эти насекомые совсем не издают звуков',
-			'Зимы в тех местах, о которых писал Крылов, нет',
-		],
-		correct: 1,
+		question: 'Tourists coming to Mallorca must pay...',
+		answers: ['sea tax', 'palm tax', 'sun tax'],
+		correct: 2,
 	},
 	{
-		question: 'Кто из знаменитых художников за жизнь продал всего одну картину?',
-		answers: ['Винсент Ван Гог', 'Эдуард Мане', 'Пьер Огюст Ренуар', 'Клод Моне'],
+		question: 'Which planet is the hottest?',
+		answers: ['Venus', 'Saturn', 'Mercury', 'Mars'],
 		correct: 0,
+	},
+	{
+		question: 'Which famous painter has sold only one painting in his life?',
+		answers: ['Vincent van Gogh', 'Edouard Manet', 'Pierre-Auguste Renoir', 'Claude Monet'],
+		correct: 0,
+	},
+	{
+		question: 'According to Forrest Gump, “life was like…”',
+		answers: ['a bag of lemons', 'a handful of roses', 'a black box', 'a box of chocolates'],
+		correct: 3,
 	},
 ];
