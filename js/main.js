@@ -32,12 +32,14 @@ function createQuestion() {
 }
 
 function createQuestionText() {
-	questionText.innerHTML = `<span>${currentQuestion + 1}. </span>${quiz[currentQuestion].question}`;
+	questionText.innerHTML = `<span>${currentQuestion + 1}. </span>${
+		quiz[currentQuestion].question
+	}`;
 }
 
 function createButtons() {
 	let buttons = '';
-	const spanLetters = ['a', 'b', 'c', 'd', 'e', 'f'];
+	const spanLetters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
 	for (let e = 0; e < quiz[currentQuestion].answers.length; e++) {
 		buttons += `<button class="quiz__answer" id="answ${e}"><p><span>${spanLetters[e]}. </span>${quiz[currentQuestion].answers[e]}</p></button>`;
 	}
